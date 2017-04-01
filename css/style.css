@@ -1,0 +1,198 @@
+
+	*{box-sizing: border-box;}
+
+	body {
+		font-family:'Roboto', sans-serif;
+		background-color: #708090;
+	}
+
+	.home-wrapper{
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/4RunnerRigids.jpg') no-repeat center top;
+		background-size: cover;
+		color:white;
+	}
+
+	header {
+		position: fixed;
+		width: 100%;
+		padding: 10px 0;
+		background-color: rgba(48, 48, 48, 0.5);
+	}
+
+	header img {
+		width: 200px;
+	}
+
+	header nav {
+		float: left;
+		margin-top: 10px;
+
+	}
+	 
+	header nav a { 
+		color:red;
+		font-weight: bold;
+		text-decoration: none;
+		margin-left: 10px;
+		padding:10px 15px;
+
+	}
+
+	header nav a.active {
+		background: #fed136;
+		border-radius: 3px;
+	}
+
+	#home {
+		text-align: center;
+		padding: 200 px 0 150px;
+	}
+
+	#home h1 {
+		font-size: 70px;
+		font-weight: normal;
+	}
+
+	#home p {
+		font-size: 30px;
+	}
+	#home .social {
+		margin-top: 80px;
+
+	}
+
+	#home .social a {
+		color: red;
+		display: inline-block;
+		border-radius: 50%;
+		background-color: black;
+		font-size: 30px;
+		font-weight: bold;
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+		margin-right: 10px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
+	}
+
+	#home .social	a:hover {
+		background-color: #fed135;
+	}
+
+	#SERVICIOS .box {
+		display: inline-block;
+		text-align: center;
+		width: 33%;
+		padding: 
+	}
+
+	#ESTUDIOS {
+		background-image: url('../images/icon.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		text-align: center;
+		background-color: #708090;
+	}
+	#ESTUDIOS .box {
+		display: inline-block;
+		text-align: center;
+		width: 45%;
+		margin-left: 35px;
+		height: 500px;
+	}
+
+	<!--#QUEHAGO {
+		background-image: url('../images/icon.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		text-align: center;
+		background-color: #708090;
+	}
+-->
+	#QUEHAGO .box {
+		display: inline-block;
+		text-align: center;
+		width: 33%;
+	}
+	#ESTUDIOS img {
+		width: 70%;
+	}
+
+	#CONTACTO {
+
+	background-color: #708090;
+	background-image: url('../images/chase.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+
+	}
+
+	#CONTACTO h2 {
+		color: white;
+	}
+
+	#CONTACTO input {
+		text-align: center;
+		padding: 20px;
+		width: 350px;	
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		background-color: #708090;
+		font-weight: bold;
+	}
+
+	#CONTACTO textarea {
+		text-align: center;
+		margin:20px 0;
+		padding: 20px;
+		width: 400 px;
+		border:1px solid #ccc;
+		border-radius: 2px;
+		background-color: #708090;
+		font-weight: bold;
+	}
+
+	#CONTACTO button {
+		background-color: #fed136;
+		padding:20px 40px;
+		border-radius: 3px;
+		border-color: #fed136;
+		font-size: 18px;
+		line-height: 1;
+		font-weight: bold;
+	}
+
+	section {
+		padding: 80px 0;
+
+	}
+
+	section h2 {
+		font-size: 32px;
+		text-align: center;
+		margin-bottom: 100px;
+		margin-top: 100px
+	}
+
+	.container 	{
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
